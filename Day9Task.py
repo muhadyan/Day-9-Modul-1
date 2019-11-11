@@ -1,4 +1,3 @@
-'''
 # angka dari 1-100 ambil genapnya aja, lalu masing2 dikali 2, lalu semuanya dijumlahkan
 nomor = range(1, 101)
 
@@ -14,7 +13,7 @@ def prima(x):
         if x == 2:
             a = True
         else:
-            for  i in range(2, x):
+            for i in range(2, x):
                 if x % i == 0:
                     a = False
                     break
@@ -26,4 +25,3 @@ def prima(x):
 
 primanya = list(filter(prima, range(101)))
 print(primanya)
-'''
